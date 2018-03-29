@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8/">
+            <title>
+                Різні поля!
+            </title>
+                <link rel="shortcut icon" href="icon/icon.png">
+    </head>
+
+    <body bgcolor="#f3fbec">
+        <img src="logo/logo.png" width="150"/><br/>
+        <li><a href="test.html">Головне меню!</a></li>
+            1)<form>
+                <p>Вхід на сайт!</p>
+                <p>Email: <input type="email" name="login"></p>
+                <p>Пароль: <input type="password" name="pass"></p>
+                <p><input type="submit" value="Вхід"></p> <br/>
+                    2)<p><textarea>Просте текстове поле!</textarea><br/><br/>
+                        <textarea readonly>Це поле тільки для читання!</textarea></p> <br/>
+                         3)<p><input type="checkbox" name="agree" onclick="agreeForm(this.form)">Я буду радий,якщо моє завдання буде правильно виконано!</p><br/><br/>
+                             4)<p>Яка нармальна середня температура людини?:</p>
+                             <p><input type="number" name="t" value="35" min="35" max="40" step="0.2"></p>
+                                 5)<p><input type="url" placeholder="Введіть любий Сайт" name="site" required></p>
+                                   <p><input type="submit" value="Надіслати"></p>
+                                     6)<p>Вкажіть колір фону: <input type="color" name="bg" value="#ff0000">
+                                        <input type="submit" value="Выбрати"></p>
+                                          7)<p>Выберите дату: <input type="date" name="calendar">
+                                            <input type="submit" value="Отправить"></p>
+                                               8) <p><button>Кнопка з текстом</button><br/><br/>
+                                                <button>
+                                                 <img src="icon/icon.png" alt="" style="vertical-align:middle"> 
+                                                 Кнопка з картинкою
+                                                </button></p>
+                                                    9)<p><strong>Як вас звати?</strong></p>
+                                                    <p><input maxlength="25" size="40" value="Назарій"></p>
+                                                        10)<p><b>Ким ви хочете бути?</b></p>
+                                                        <p><input name="dzen" type="radio" value="nedzen">Програміст</p>
+                                                        <p><input name="dzen" type="radio" value="dzen">Дворнік</p>
+                                                        <p><input name="dzen" type="radio" value="pdzen" checked>Бізнес вумен</p>
+                                                        <p><input type="submit" value="Выбрати"></p>
+                                                            11)<p><strong>Логін:</strong> 
+                                                                <input maxlength="25" size="40" name="login"></p>
+                                                               <p><strong>Пароль:</strong> 
+                                                                <input type="password" maxlength="25" size="40" name="password"></p>
+                                                                    12)<p><input type="search" name="q" placeholder="Пошук по сайту"> 
+                                                                        <input type="submit" value="Найти"></p>
+                                                                         13)<p><input name="MeMe" type="radio" value="love" checked >love</p>
+                                                                            14)<p>Ваше имя: <input name="login"></p>
+                                                                            <p>Номер телефона +38(063)-174-04-ХХ:  <input type="tel" name="tel" 
+                                                                            pattern="2[0-9]{3}-[0-9]{3}"></p>
+                                                                            <p><input type="submit" value="Отправить"></p>
+                                                                                15)<textarea>Поле для великого тексту!</textarea>
+                                                                        </form>
+                                                                        
+    </body>                        
+</html>
